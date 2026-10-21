@@ -1,0 +1,27 @@
+{
+  "name": "curador-de-licoes",
+  "version": "1.0.0",
+  "description": "Faça seus agentes de IA aprenderem com as conversas que você tem com a IA — ciclo de aprendizado estilo Hermes para times de agentes.",
+  "main": "src/curador.js",
+  "scripts": {
+    "test": "node examples/exemplo.js"
+  },
+  "keywords": [
+    "ai-agents",
+    "claude",
+    "skills",
+    "memory",
+    "hermes-agent",
+    "self-improving"
+  ],
+  "license": "MIT",
+  "author": "Eder Soffa (Ping Tecnologia e Segurança) e Claude (Anthropic)",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ping-Tecnologia/curador-de-licoes"
+  },
+  "homepage": "https://github.com/Ping-Tecnologia/curador-de-licoes#readme"
+}
