@@ -9,7 +9,7 @@ O **Curador de Lições** fecha esse ciclo. Toda noite, as conversas do dia vira
 Inspirado no ciclo de aprendizado do [Hermes Agent](https://hermes-agent.nousresearch.com/) (Nous Research) e nas skills abertas *reflect* e *extract-learnings*, só que pensado para um **time de agentes de empresa** em vez de um assistente pessoal.
 
 > Nasceu no **Portal Ping**, a plataforma interna de agentes da **Ping Tecnologia e Segurança** (Dourados/MS, Brasil), onde roda em produção com 20+ agentes.
-> Criado por **Eder Soffa** (Gerente Geral da Ping), construído junto com o **Claude** (Anthropic).
+> 💡 **A ideia é do [Eder Soffa](https://github.com/edersoffapires-netizen) ([@edersoffapires-netizen](https://github.com/edersoffapires-netizen)), Gerente Geral da Ping.** Ele encontrou o Hermes Agent, perguntou "o que falta para os nossos agentes ficarem assim?" e pediu que as conversas dele com a IA virassem aprendizado do time de agentes. O código foi construído junto com o **Claude** (Anthropic).
 
 ---
 
@@ -121,11 +121,11 @@ As pastas em `skills/` seguem o formato aberto de skills (`SKILL.md` com `name` 
 
 ## English summary
 
-**Lessons Curator** turns your everyday chats with an AI into durable memory for a *team* of business agents. A nightly job distills the day's conversations into decisions, corrections, business rules and working paths. Each morning, a curator agent routes each item to the right agent's memory, as an obligatory rule or as a lesson. Every agent also self-reviews after each run, and agents running on stale sources ask to be paused. The code is dependency-free Node.js, the skills follow the open `SKILL.md` format, and the license is MIT. Inspired by the learning loop of Nous Research's Hermes Agent.
+**Lessons Curator** turns your everyday chats with an AI into durable memory for a *team* of business agents. A nightly job distills the day's conversations into decisions, corrections, business rules and working paths. Each morning, a curator agent routes each item to the right agent's memory, as an obligatory rule or as a lesson. Every agent also self-reviews after each run, and agents running on stale sources ask to be paused. The code is dependency-free Node.js, the skills follow the open `SKILL.md` format, and the license is MIT. Idea by Eder Soffa ([@edersoffapires-netizen](https://github.com/edersoffapires-netizen)), who brought the Hermes Agent learning loop to Ping's agent team. Built with Claude (Anthropic).
 
 ## Autores
 
-- **Eder Soffa**, Ping Tecnologia e Segurança: ideia, regras de negócio e uso em produção.
+- **[Eder Soffa](https://github.com/edersoffapires-netizen)** ([@edersoffapires-netizen](https://github.com/edersoffapires-netizen)), Ping Tecnologia e Segurança: **autor da ideia**. Foi ele quem buscou o Hermes Agent como referência, definiu que as conversas com a IA deviam ensinar os agentes e pôs tudo em produção no Portal Ping.
 - **Claude** (Anthropic): arquitetura e código, construídos em conversa com o Eder.
 
 ## Licença

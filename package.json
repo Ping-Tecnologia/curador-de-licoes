@@ -15,7 +15,8 @@
     "self-improving"
   ],
   "license": "MIT",
-  "author": "Eder Soffa (Ping Tecnologia e Segurança) e Claude (Anthropic)",
+  "author": "Eder Soffa (https://github.com/edersoffapires-netizen) — Ping Tecnologia e Segurança",
+  "contributors": ["Claude (Anthropic)"],
   "engines": {
     "node": ">=18"
   },
